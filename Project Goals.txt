@@ -1,0 +1,33 @@
+1. Build a simple baseline
+   Your workflow should be:
+   - download the dataset
+   - inspect sample images
+   - resize and normalize images
+   - split them into training and testing sets
+   - train a classifier
+   - measure accuracy and a confusion matrix
+   - display predictions
+2. Start with a simple model
+   You could first use a small convolutional neural network, or use transfer learning with a pretrained model such as MobileNetV2 or ResNet.
+   Transfer learning is easier and usually gives better results for a student project.
+3. Analyze the results
+   Don’t only report accuracy. Explain:
+   - Which classes were easiest to recognize?
+   - Which classes were confused with one another?
+   - Did the model perform poorly on urban and industrial areas?
+   - What could improve it?
+4. Present it professionally
+   Put the project on GitHub with:
+   - README.md
+   - notebook or Python scripts
+   - example images
+   - accuracy and confusion matrix
+   - explanation of the model
+   - limitations and possible future improvements
+A possible project title is:
+Satellite Image Land-Cover Classification Using Transfer Learning
+
+A resume bullet could be:
+Built a CNN-based image classifier using Python and transfer learning to categorize satellite images into 10 land-cover classes; evaluated performance using accuracy, precision, recall, and a confusion matrix.
+
+Start small. You do not need to create a new satellite model or collect your own images. The valuable part is showing that you can understand a dataset, build a model, evaluate it honestly, and explain your results.
